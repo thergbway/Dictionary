@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="229.5">dictionary.AutoCompletionJComboBox</node>
+    <node x="436.0" y="229.0">dictionary.StringSearchable</node>
+    <node x="242.14107142857148" y="419.0">dictionary.AutoCompletionJComboBoxAsJPanel</node>
+    <node x="628.3910714285714" y="0.0">dictionary.DAO</node>
+    <node x="277.2660714285715" y="40.5">dictionary.Searchable</node>
+    <node x="478.0" y="517.0">dictionary.MainForm</node>
+    <node x="692.0" y="179.0">dictionary.DAOImpl</node>
+    <node x="785.8910714285714" y="419.0">dictionary.AboutDialog</node>
+    <node x="699.3232142857142" y="837.0">dictionary.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="dictionary.DAOImpl" target="dictionary.DAO">
+      <point x="0.0" y="-95.0" />
+      <point x="851.5" y="154.0" />
+      <point x="827.7660714285714" y="154.0" />
+      <point x="39.875" y="64.5" />
+    </edge>
+    <edge source="dictionary.Main" target="dictionary.DAO">
+      <point x="75.5" y="-44.5" />
+      <point x="925.8232142857142" y="812.0" />
+      <point x="1021.5" y="812.0" />
+      <point x="1021.5" y="154.0" />
+      <point x="907.5160714285714" y="154.0" />
+      <point x="119.625" y="64.5" />
+    </edge>
+    <edge source="dictionary.MainForm" target="dictionary.DAO">
+      <point x="0.0" y="-135.0" />
+      <point x="681.5" y="154.0" />
+      <point x="748.0160714285714" y="154.0" />
+      <point x="-39.875" y="64.5" />
+    </edge>
+    <edge source="dictionary.AutoCompletionJComboBoxAsJPanel" target="dictionary.AutoCompletionJComboBox">
+      <point x="-80.0" y="-24.0" />
+      <point x="322.1410714285715" y="394.0" />
+      <point x="208.0" y="394.0" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="dictionary.StringSearchable" target="dictionary.DAO">
+      <point x="58.75" y="-45.0" />
+      <point x="612.25" y="154.0" />
+      <point x="668.2660714285714" y="154.0" />
+      <point x="-119.625" y="64.5" />
+    </edge>
+    <edge source="dictionary.AutoCompletionJComboBox" target="dictionary.Searchable">
+      <point x="0.0" y="-44.5" />
+      <point x="208.0" y="154.0" />
+      <point x="325.0160714285715" y="154.0" />
+      <point x="-47.75" y="24.0" />
+    </edge>
+    <edge source="dictionary.MainForm" target="dictionary.AboutDialog">
+      <point x="162.8" y="-135.0" />
+      <point x="844.3000000000001" y="497.0" />
+      <point x="916.3910714285714" y="497.0" />
+      <point x="43.5" y="24.0" />
+    </edge>
+    <edge source="dictionary.StringSearchable" target="dictionary.Searchable">
+      <point x="-58.75" y="-45.0" />
+      <point x="494.75" y="154.0" />
+      <point x="420.5160714285715" y="154.0" />
+      <point x="47.75" y="24.0" />
+    </edge>
+    <edge source="dictionary.Main" target="dictionary.MainForm">
+      <point x="-75.5" y="-44.5" />
+      <point x="774.8232142857144" y="812.0" />
+      <point x="681.5" y="812.0" />
+      <point x="0.0" y="135.0" />
+    </edge>
+    <edge source="dictionary.AutoCompletionJComboBoxAsJPanel" target="dictionary.StringSearchable">
+      <point x="80.0" y="-24.0" />
+      <point x="482.1410714285715" y="394.0" />
+      <point x="553.5" y="394.0" />
+      <point x="0.0" y="45.0" />
+    </edge>
+    <edge source="dictionary.MainForm" target="dictionary.AutoCompletionJComboBoxAsJPanel">
+      <point x="-162.79999999999995" y="-135.0" />
+      <point x="518.7" y="497.0" />
+      <point x="322.1410714285715" y="497.0" />
+      <point x="-80.0" y="24.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="511.5" y="722.0" />
+  <SelectedNodes>
+    <node>dictionary.AutoCompletionJComboBox</node>
+    <node>dictionary.StringSearchable</node>
+    <node>dictionary.AutoCompletionJComboBoxAsJPanel</node>
+    <node>dictionary.DAO</node>
+    <node>dictionary.Searchable</node>
+    <node>dictionary.MainForm</node>
+    <node>dictionary.DAOImpl</node>
+    <node>dictionary.AboutDialog</node>
+    <node>dictionary.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
